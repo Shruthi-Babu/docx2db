@@ -4,25 +4,39 @@ import re
 
 class Subject:
 
-    def __init__(self, sub_code, sub_name, sub_abbre, sub_time, teacher, map_id, is_lab):
+    def __init__(self, sub_code, sub_name, teacher, map_id, sem):
         self.sub_code = sub_code
         self.sub_name = sub_name
-        self.sub_abbre = sub_abbre
-        self.sub_time = sub_time
         self.teacher_code = teacher
-        self.map_id = map_id
-        self.is_lab = is_lab
+        self.is_lab = Subject.is_lab()
+        self.sem = sem
+
+    @staticmethod
+    def is_lab(self):
+        return True
+
+    def generate_map_id(self):
+
+        return
+
+    def generate_fid(self):
+
+        return
 
 
 class ClassRoom:
 
-    def __init__(self, subject, room_no, section):
-        self.subject = subject
+    def __init__(self, map_id, room_no, day):
+        self.map_id = map_id
         self.room_no = room_no
-        self.section = section
+        self.day = day
+
+    def find_slot(self, slot):
+        self.slot = slot
+        return
 
 
-wordDoc = Document("5TH_TT_WITH_TUTORIAL.docx")
+wordDoc = Document("test_files/5TH_TT_WITH_TUTORIAL.docx")
 text = []
 time_tables = []
 class_rooms = []
@@ -37,12 +51,10 @@ for table in wordDoc.tables:
 for item in text:
     if "CS" in item and "." in item:
         arr = re.split("[\t]+", str(item))
-        sub_abbre = re.split("^[0-9]?\. ", arr[0])[1]
-        sub_code = arr[1].strip()
+        sub_code = re.split("[0-9]?\.", arr[0])[1]
         sub_name = arr[2].strip()
         teacher = arr[3].strip()
-        
-        print(sub_abbre, sub_code, sub_name, teacher, sep=" ")
+        print(sub_code, "Subject:"+sub_name, "Teacher:"+teacher, sep=" ")
     print("")
 # for info in time_tables:
     # print(info)
