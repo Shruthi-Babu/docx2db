@@ -1,0 +1,231 @@
+mapid,fid,sem,sub
+4a01,44,4a,Engineering Mathematics-IV
+4a02,7,4a,Software Engineering
+4a03,10,4a,Design And Analysis of Algorithms
+4a04,9,4a,Microprocessors And Microcontrollers
+4a05,25,4a,Object Oriented Concepts
+4a06,4,4a,Data Communication
+4aA101l,25,4a,Design And Analysis Of Algorithms Laboratory
+4aA101l,29,4a,Design And Analysis Of Algorithms Laboratory
+4aA101l,38,4a,Design And Analysis Of Algorithms Laboratory
+4aA201l,10,4a,Design And Analysis Of Algorithms Laboratory
+4aA201l,32,4a,Design And Analysis Of Algorithms Laboratory
+4aA201l,41,4a,Design And Analysis Of Algorithms Laboratory
+4aA301l,4,4a,Design And Analysis Of Algorithms Laboratory
+4aA301l,10,4a,Design And Analysis Of Algorithms Laboratory
+4aA301l,40,4a,Design And Analysis Of Algorithms Laboratory
+4aA102l,12,4a,Microprocessor Laboratory
+4aA102l,31,4a,Microprocessor Laboratory
+4aA102l,42,4a,Microprocessor Laboratory
+4aA202l,27,4a,Microprocessor Laboratory
+4aA202l,31,4a,Microprocessor Laboratory
+4aA202l,34,4a,Microprocessor Laboratory
+4aA302l,11,4a,Microprocessor Laboratory
+4aA302l,22,4a,Microprocessor Laboratory
+4aA302l,34,4a,Microprocessor Laboratory
+4b01,44,4b,Engineering Mathematics-IV
+4b02,11,4b,Software Engineering
+4b03,1,4b,Design And Analysis of Algorithms
+4b04,9,4b,Microprocessors And Microcontrollers
+4b05,5,4b,Object Oriented Concepts
+4b06,15,4b,Data Communication
+4bB101l,18,4b,Design And Analysis Of Algorithms Laboratory
+4bB101l,39,4b,Design And Analysis Of Algorithms Laboratory
+4bB101l,38,4b,Design And Analysis Of Algorithms Laboratory
+4bB201l,18,4b,Design And Analysis Of Algorithms Laboratory
+4bB201l,40,4b,Design And Analysis Of Algorithms Laboratory
+4bB201l,41,4b,Design And Analysis Of Algorithms Laboratory
+4bB301l,1,4b,Design And Analysis Of Algorithms Laboratory
+4bB301l,13,4b,Design And Analysis Of Algorithms Laboratory
+4bB301l,41,4b,Design And Analysis Of Algorithms Laboratory
+4bB102l,19,4b,Microprocessor Laboratory
+4bB102l,31,4b,Microprocessor Laboratory
+4bB102l,34,4b,Microprocessor Laboratory
+4bB202l,24,4b,Microprocessor Laboratory
+4bB202l,31,4b,Microprocessor Laboratory
+4bB202l,34,4b,Microprocessor Laboratory
+4bB302l,11,4b,Microprocessor Laboratory
+4bB302l,30,4b,Microprocessor Laboratory
+4bB302l,34,4b,Microprocessor Laboratory
+4c01,44,4c,Engineering Mathematics-IV
+4c02,12,4c,Software Engineering
+4c03,10,4c,Design And Analysis of Algorithms
+4c04,22,4c,Microprocessors And Microcontrollers
+4c05,13,4c,Object Oriented Concepts
+4c06,4,4c,Data Communication
+4cC101l,26,4c,Design And Analysis Of Algorithms Laboratory
+4cC101l,39,4c,Design And Analysis Of Algorithms Laboratory
+4cC101l,43,4c,Design And Analysis Of Algorithms Laboratory
+4cC201l,13,4c,Design And Analysis Of Algorithms Laboratory
+4cC201l,15,4c,Design And Analysis Of Algorithms Laboratory
+4cC201l,18,4c,Design And Analysis Of Algorithms Laboratory
+4cC301l,18,4c,Design And Analysis Of Algorithms Laboratory
+4cC301l,25,4c,Design And Analysis Of Algorithms Laboratory
+4cC301l,40,4c,Design And Analysis Of Algorithms Laboratory
+4cC102l,9,4c,Microprocessor Laboratory
+4cC102l,34,4c,Microprocessor Laboratory
+4cC102l,42,4c,Microprocessor Laboratory
+4cC202l,27,4c,Microprocessor Laboratory
+4cC202l,31,4c,Microprocessor Laboratory
+4cC202l,34,4c,Microprocessor Laboratory
+4cC302l,12,4c,Microprocessor Laboratory
+4cC302l,31,4c,Microprocessor Laboratory
+4cC302l,34,4c,Microprocessor Laboratory
+4d01,44,4d,Engineering Mathematics-IV
+4d02,11,4d,Software Engineering
+4d03,5,4d,Design And Analysis of Algorithms
+4d04,22,4d,Microprocessors And Microcontrollers
+4d05,13,4d,Object Oriented Concepts
+4d06,19,4d,Data Communication
+4dD101l,5,4d,Design And Analysis Of Algorithms Laboratory
+4dD101l,26,4d,Design And Analysis Of Algorithms Laboratory
+4dD101l,39,4d,Design And Analysis Of Algorithms Laboratory
+4dD201l,26,4d,Design And Analysis Of Algorithms Laboratory
+4dD201l,29,4d,Design And Analysis Of Algorithms Laboratory
+4dD201l,39,4d,Design And Analysis Of Algorithms Laboratory
+4dD301l,13,4d,Design And Analysis Of Algorithms Laboratory
+4dD301l,14,4d,Design And Analysis Of Algorithms Laboratory
+4dD301l,32,4d,Design And Analysis Of Algorithms Laboratory
+4dD102l,11,4d,Microprocessor Laboratory
+4dD102l,22,4d,Microprocessor Laboratory
+4dD102l,31,4d,Microprocessor Laboratory
+4dD202l,24,4d,Microprocessor Laboratory
+4dD202l,27,4d,Microprocessor Laboratory
+4dD202l,30,4d,Microprocessor Laboratory
+4dD302l,22,4d,Microprocessor Laboratory
+4dD302l,31,4d,Microprocessor Laboratory
+4dD302l,42,4d,Microprocessor Laboratory
+6a01,33,6a,Management and Entrepreneurship
+6a02,12,6a,UNIX Systems Programming
+6a03,17,6a,Compiler Design
+6a04,16,6a,Computer Networks-II
+6a05,3,6a,Computer Graphics and Visualization
+6a06,26,6a,Operations Research
+6aA101l,7,6a,Computer Graphics and Visualization Laboratory
+6aA101l,33,6a,Computer Graphics and Visualization Laboratory
+6aA201l,23,6a,Computer Graphics and Visualization Laboratory
+6aA201l,36,6a,Computer Graphics and Visualization Laboratory
+6aA301l,14,6a,Computer Graphics and Visualization Laboratory
+6aA301l,33,6a,Computer Graphics and Visualization Laboratory
+6aA401l,16,6a,Computer Graphics and Visualization Laboratory
+6aA401l,33,6a,Computer Graphics and Visualization Laboratory
+6aA102l,28,6a,UNIX Systems Programming & Compiler Design Laboratory
+6aA102l,37,6a,UNIX Systems Programming & Compiler Design Laboratory
+6aA202l,14,6a,UNIX Systems Programming & Compiler Design Laboratory
+6aA202l,35,6a,UNIX Systems Programming & Compiler Design Laboratory
+6aA302l,17,6a,UNIX Systems Programming & Compiler Design Laboratory
+6aA302l,23,6a,UNIX Systems Programming & Compiler Design Laboratory
+6aA402l,12,6a,UNIX Systems Programming & Compiler Design Laboratory
+6aA402l,41,6a,UNIX Systems Programming & Compiler Design Laboratory
+6b01,7,6b,Management and Entrepreneurship
+6b02,19,6b,UNIX Systems Programming
+6b03,23,6b,Compiler Design
+6b04,28,6b,Computer Networks-II
+6b05,21,6b,Computer Graphics and Visualization
+6b06,8,6b,Operations Research
+6bB101l,24,6b,Computer Graphics and Visualization Laboratory
+6bB101l,40,6b,Computer Graphics and Visualization Laboratory
+6bB201l,23,6b,Computer Graphics and Visualization Laboratory
+6bB201l,33,6b,Computer Graphics and Visualization Laboratory
+6bB301l,21,6b,Computer Graphics and Visualization Laboratory
+6bB301l,42,6b,Computer Graphics and Visualization Laboratory
+6bB401l,21,6b,Computer Graphics and Visualization Laboratory
+6bB401l,33,6b,Computer Graphics and Visualization Laboratory
+6bB102l,19,6b,UNIX Systems Programming & Compiler Design Laboratory
+6bB102l,37,6b,UNIX Systems Programming & Compiler Design Laboratory
+6bB202l,23,6b,UNIX Systems Programming & Compiler Design Laboratory
+6bB202l,43,6b,UNIX Systems Programming & Compiler Design Laboratory
+6bB302l,14,6b,UNIX Systems Programming & Compiler Design Laboratory
+6bB302l,19,6b,UNIX Systems Programming & Compiler Design Laboratory
+6bB402l,23,6b,UNIX Systems Programming & Compiler Design Laboratory
+6bB402l,37,6b,UNIX Systems Programming & Compiler Design Laboratory
+6c01,18,6c,Management and Entrepreneurship
+6c02,37,6c,UNIX Systems Programming
+6c03,17,6c,Compiler Design
+6c04,28,6c,Computer Networks-II
+6c05,3,6c,Computer Graphics and Visualization
+6c06,26,6c,Operations Research
+6cC101l,14,6c,Computer Graphics and Visualization Laboratory
+6cC101l,42,6c,Computer Graphics and Visualization Laboratory
+6cC201l,15,6c,Computer Graphics and Visualization Laboratory
+6cC201l,42,6c,Computer Graphics and Visualization Laboratory
+6cC301l,16,6c,Computer Graphics and Visualization Laboratory
+6cC301l,40,6c,Computer Graphics and Visualization Laboratory
+6cC401l,3,6c,Computer Graphics and Visualization Laboratory
+6cC401l,40,6c,Computer Graphics and Visualization Laboratory
+6cC102l,23,6c,UNIX Systems Programming & Compiler Design Laboratory
+6cC102l,28,6c,UNIX Systems Programming & Compiler Design Laboratory
+6cC202l,17,6c,UNIX Systems Programming & Compiler Design Laboratory
+6cC202l,37,6c,UNIX Systems Programming & Compiler Design Laboratory
+6cC302l,28,6c,UNIX Systems Programming & Compiler Design Laboratory
+6cC302l,43,6c,UNIX Systems Programming & Compiler Design Laboratory
+6cC402l,17,6c,UNIX Systems Programming & Compiler Design Laboratory
+6cC402l,37,6c,UNIX Systems Programming & Compiler Design Laboratory
+8a01,39,8a,Software Architectures
+8a02,27,8a,System Modeling and Simulation
+8a03,35,8a,Information and Network Security
+8a04,31,8a,Services Oriented Architectures
+8b01,38,8b,Software Architectures
+8b02,27,8b,System Modeling and Simulation
+8b03,32,8b,Information and Network Security
+8b04,24,8b,Services Oriented Architectures
+8c01,38,8c,Software Architectures
+8c02,29,8c,System Modeling and Simulation
+8c03,30,8c,Information and Network Security
+8c04,24,8c,Services Oriented Architectures
+mtech201,8,mtech2,Managing Big Data
+mtech202,16,mtech2,Advances in Computer Networks
+mtech203,40,mtech2,Advanced Algorithms
+mtech204,15,mtech2,Internet of Things
+mtech205,2,mtech2,Web Services
+mtech401,14,mtech4,Machine Learning & Techniques
+mtech402,21,mtech4,Business Intelligence and its Applications
+2aCCP,29,2a,Programming in C and Data Structures
+2bCCP,30,2b,Programming in C and Data Structures
+2cCCP,25,2c,Programming in C and Data Structures
+MEdCCP,36,MEd,Programming in C and Data Structures
+MEeCCP,32,MEe,Programming in C and Data Structures
+MEfCCP,35,MEf,Programming in C and Data Structures
+ISgCCP,36,ISg,Programming in C and Data Structures
+2aA1A2CCPl,29,2a,Computer Programming Lab
+2aA1A2CCPl,36,2a,Computer Programming Lab
+2aA1A2CCPl,41,2a,Computer Programming Lab
+2aA3A4CCPl,33,2a,Computer Programming Lab
+2aA3A4CCPl,41,2a,Computer Programming Lab
+2aA3A4CCPl,42,2a,Computer Programming Lab
+2bB1B2CCPl,30,2b,Computer Programming Lab
+2bB1B2CCPl,32,2b,Computer Programming Lab
+2bB1B2CCPl,41,2b,Computer Programming Lab
+2bB3B4CCPl,37,2b,Computer Programming Lab
+2bB3B4CCPl,39,2b,Computer Programming Lab
+2bB3B4CCPl,42,2b,Computer Programming Lab
+2cC1C2CCPl,25,2c,Computer Programming Lab
+2cC1C2CCPl,34,2c,Computer Programming Lab
+2cC1C2CCPl,41,2c,Computer Programming Lab
+2cC3C4CCPl,37,2c,Computer Programming Lab
+2cC3C4CCPl,38,2c,Computer Programming Lab
+2cC3C4CCPl,39,2c,Computer Programming Lab
+MEdD1D2CCPl,35,MEd,Computer Programming Lab
+MEdD1D2CCPl,36,MEd,Computer Programming Lab
+MEdD1D2CCPl,42,MEd,Computer Programming Lab
+MEdD3D4CCPl,32,MEd,Computer Programming Lab
+MEdD3D4CCPl,36,MEd,Computer Programming Lab
+MEdD3D4CCPl,38,MEd,Computer Programming Lab
+MEeE1E2CCPl,32,MEe,Computer Programming Lab
+MEeE1E2CCPl,37,MEe,Computer Programming Lab
+MEeE1E2CCPl,43,MEe,Computer Programming Lab
+MEeE3E4CCPl,35,MEe,Computer Programming Lab
+MEeE3E4CCPl,43,MEe,Computer Programming Lab
+MEeE3E4CCPl,34,MEe,Computer Programming Lab
+MEfF1F2CCPl,29,MEf,Computer Programming Lab
+MEfF1F2CCPl,38,MEf,Computer Programming Lab
+MEfF1F2CCPl,35,MEf,Computer Programming Lab
+MEfF3F4CCPl,33,MEf,Computer Programming Lab
+MEfF3F4CCPl,41,MEf,Computer Programming Lab
+MEfF3F4CCPl,42,MEf,Computer Programming Lab
+ISgG1G2CCPl,36,ISg,Computer Programming Lab
+ISgG1G2CCPl,35,ISg,Computer Programming Lab
+ISgG1G2CCPl,39,ISg,Computer Programming Lab
+ISgG3G4CCPl,30,ISg,Computer Programming Lab
+ISgG3G4CCPl,33,ISg,Computer Programming Lab
+ISgG3G4CCPl,42,ISg,Computer Programming Lab
