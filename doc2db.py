@@ -1,60 +1,33 @@
 from docx import Document
-import re
+from boltons import iterutils
+import sqlite3
 
 
-class Subject:
+conn = sqlite3.connect('Docs/5a.db') #db exclusive for 5a
+c=conn.cursor()
+c.execute('''CREATE TABLE IF NOT EXISTS classes (day TEXT, slot TEXT, room TEXT, mapid TEXT)''')
+c.execute('''CREATE TABLE IF NOT EXISTS faculty(fid TEXT, name TEXT, tag TEXT,designation TEXT, qualification TEXT, phoneno TEXT, emailid TEXT)''')
+c.execute('''CREATE TABLE IF NOT EXISTS slot(slotnumber TEXT,timings TEXT)''')
+c.execute('''CREATE TABLE IF NOT EXISTS subjects(mapid TEXT, fid TEXT, sem TEXT,sub TEXT)''')
 
-    def __init__(self, sub_code, sub_name, teacher, map_id, sem):
-        self.sub_code = sub_code
-        self.sub_name = sub_name
-        self.teacher_code = teacher
-        self.is_lab = Subject.is_lab()
-        self.sem = sem
-
-    @staticmethod
-    def is_lab(self):
-        return True
-
-    def generate_map_id(self):
-
-        return
-
-    def generate_fid(self):
-
-        return
+c.execute('''SELECT * INTO 5a.slot FROM 2017e.slot''') #tried to copy the original 'slot' table into 'slot' for 5A, but not working!!
 
 
-class ClassRoom:
 
-    def __init__(self, map_id, room_no, day):
-        self.map_id = map_id
-        self.room_no = room_no
-        self.day = day
-
-    def find_slot(self, slot):
-        self.slot = slot
-        return
-
-
-wordDoc = Document("test_files/5TH_TT_WITH_TUTORIAL.docx")
+wordDoc = Document("Docs/5a.docx") #doc containing TT of 5A only so that its easier to access subjects individually
 text = []
 time_tables = []
 class_rooms = []
 subjects = []
-for info in wordDoc.paragraphs:
-        text.append(info.text)
+TABLE = [[]]
 for table in wordDoc.tables:
-    class_room = "3a"
+    class_room = "5a"
     for row in table.rows:
         for cell in row.cells:
             time_tables.append(cell.text)
-for item in text:
-    if "CS" in item and "." in item:
-        arr = re.split("[\t]+", str(item))
-        sub_code = re.split("[0-9]?\.", arr[0])[1]
-        sub_name = arr[2].strip()
-        teacher = arr[3].strip()
-        print(sub_code, "Subject:"+sub_name, "Teacher:"+teacher, sep=" ")
-    print("")
-# for info in time_tables:
-    # print(info)
+#print time_tables
+TABLE = iterutils.chunked(time_tables , 16) #creates a 2D list from the availabe 1D list
+for i in range(len(TABLE)):
+    print(TABLE[i])
+    
+#The number of columns that are getting displayed is different for each TT, hence split the doc class wise.
