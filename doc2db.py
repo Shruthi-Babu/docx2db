@@ -3,8 +3,10 @@ from boltons import iterutils
 import sqlite3
 
 
-conn = sqlite3.connect('Docs/5a.db') #db exclusive for 5a
+conn = sqlite3.connect('test_files/5a.db') #db exclusive for 5a
 c=conn.cursor()
+conn2 = sqlite3.connect('2017e.db')
+c2=conn2.cursor()
 c.execute('''CREATE TABLE IF NOT EXISTS classes (day TEXT, slot TEXT, room TEXT, mapid TEXT)''')
 c.execute('''CREATE TABLE IF NOT EXISTS faculty(fid TEXT, name TEXT, tag TEXT,designation TEXT, qualification TEXT, phoneno TEXT, emailid TEXT)''')
 c.execute('''CREATE TABLE IF NOT EXISTS slot(slotnumber TEXT,timings TEXT)''')
