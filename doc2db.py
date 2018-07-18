@@ -19,11 +19,11 @@ timeArray = []
 fidArray = []
 tagArray = []
 c2.execute('''SELECT timings FROM slot ''')
-times = c2.fetchall()
+timeArray = c2.fetchall()
 #print(times)
 
 c2.execute('''SELECT slotnumber FROM slot ''')
-slotnum = c2.fetchall()
+slotArray = c2.fetchall()
 #print(slotnum)
 slotsdict = {}
 facDict = {}
