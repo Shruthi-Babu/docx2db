@@ -12,6 +12,35 @@ c.execute('''CREATE TABLE IF NOT EXISTS subjects(mapid TEXT, fid TEXT, sem TEXT,
 
 c.execute('''SELECT * INTO 5a.slot FROM 2017e.slot''') #tried to copy the original 'slot' table into 'slot' for 5A, but not working!!
 
+slotArray = []
+timeArray = []
+fidArray = []
+tagArray = []
+c2.execute('''SELECT timings FROM slot ''')
+times = c2.fetchall()
+#print(times)
+
+c2.execute('''SELECT slotnumber FROM slot ''')
+slotnum = c2.fetchall()
+#print(slotnum)
+slotsdict = {}
+facDict = {}
+
+c2.execute('''SELECT fid FROM faculty ''')
+fidArray = c2.fetchall()
+
+c2.execute('''SELECT tag FROM faculty''')
+tagArray = c2.fetchall()
+
+for i in range(0,13):
+    slotsdict[timeArray[i]] = slotArray[i]
+
+for i in range(0,13):
+    facDict[tagArray[i]] = fidArray[i]
+
+print slotsdict
+print facDict
+
 
 
 wordDoc = Document("Docs/5a.docx") #doc containing TT of 5A only so that its easier to access subjects individually
